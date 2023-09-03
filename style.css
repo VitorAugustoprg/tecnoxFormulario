@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(30, 25, 44);
+}
+h1 {
+    color: #ffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-style: italic;
+    font-weight: bold;
+}
+fieldset {
+    margin-bottom: 20px;
+}
+legend {
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.email, .nome, .numero {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4pt;
+    background-color: #ffffff00;
+    width: 250px;
+    color: #ffff;
+}
+.email:hover, .nome:hover, .numero:hover {
+    border: 2px solid white;
+} 
+p {
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 12pt;
+}
+span {
+    color: rgba(255, 0, 0, 0.658);
+}
+.check-periodo {
+    display: flex;
+}
+.check-regiao {
+    display: flex;
+}
+.checkbox {
+    display: flex;
+}
+.checkbox p, .check-periodo, .check-regiao {
+    padding-left: 7px;
+    color: #ffff;
+}
+button {
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 3pt;
+    background-color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: #ffff;
+}
